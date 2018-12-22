@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+spring:
+  #profiles:
+    #active: dev
+  application:
+    name: hello-service
+
+book:
+  name: youdao
+
+info:
+  app:
+    name: spring-boot-hello
+    version: v1.0.0
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
