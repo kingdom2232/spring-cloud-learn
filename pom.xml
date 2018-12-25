@@ -20,7 +20,9 @@
         <module>model</module>
         <module>hello-service-api</module>
         <module>api-gateway</module>
+        <module>api-gateway-dynamic-route</module>
         <module>config-server</module>
+        <module>config-client</module>
     </modules>
     <repositories>
         <repository>
